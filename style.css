@@ -1,1 +1,21 @@
-body 
+body {
+  background-color: thistle;
+}
+h1 {
+  color: #4A3267;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.stranka {
+  background-color: #F3D9E5;
+  max-width: 80%;
+  
+}
+p {
+  text-align: center;
+  max-width: 70%;
+  margin-right: auto;
+  margin-left: auto; 
+}
