@@ -30,3 +30,7 @@ img {
   padding-top: 30px;
   margin-top: 30px;
 }
+
+.galerie {
+  gap: 20px;
+}
