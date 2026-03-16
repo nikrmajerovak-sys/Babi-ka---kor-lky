@@ -22,7 +22,7 @@ p {
   margin-left: auto; 
 }
 
-. galerie img {
+.galerie img {
   max-width: 300px;
   height: auto;
   display: block;
