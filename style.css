@@ -30,12 +30,13 @@ p {
   width: 90%;
   margin: 0 auto;
   padding-top: 30 px;
+  
 }
 
 .galerie img {
   max-width: 100%;
   height: auto;
-  
+  transition: transform 0.5s ease;
 
 }
 
