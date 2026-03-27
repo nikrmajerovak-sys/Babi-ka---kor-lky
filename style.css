@@ -32,9 +32,8 @@ p {
 }
 
 .galerie img {
-  width: auto;
-  height: auto;
-min-width:  100px;
+  flex: 1 1 auto;
+  
 
 }
 
