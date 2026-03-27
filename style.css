@@ -28,10 +28,12 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: 10 px;
+  width: 
 }
 
 .galerie img {
-  flex-basis: 300 px;
+  width: 300 px;
+  height: auto;
 
 }
 
