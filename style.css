@@ -27,15 +27,12 @@ p {
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 10 px;
 }
 
 .galerie img {
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin-right: auto;
-  margin-left: auto; 
-  margin-top: 30px;
+  flex-basis: 300 px;
+
 }
 
 
