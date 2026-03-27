@@ -10,7 +10,7 @@ h1 {
 
 .stranka {
   background-color: #F3D9E5;
-  max-width: 80%;
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
   padding: 20px;
@@ -28,12 +28,13 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: 10 px;
-  width: 
+  width: 90%;
 }
 
 .galerie img {
-  width: 50vw;
+  width: auto;
   height: auto;
+min-width:  100px;
 
 }
 
