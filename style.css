@@ -29,12 +29,21 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3rem;
   font-family: sans-serif;
+  position: absolute;
+  top: 20vh;
+  left: 10px;
+  max-width: 40vw;
 }
-#obrazky {
-  position: relative;
-  width: 600px;
-  height: 100%;
-  overflow: hidden;
+
+#uvodni1 {
+   position: absolute;
+  height: auto;
+  max-width: 40vw; 
+  right: 10px;
+  top: 20vh;
+  
+  }
+
 }
 
 main {
