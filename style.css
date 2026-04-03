@@ -1,16 +1,45 @@
-body {
-  background-color: thistle;
+:root {
+  --pozadi1: #e9d9ff;
+  --pozadi2: #ffe6f0;
+  --pozadi3: #fdf8ff;
+  --nadpis: #4A3267;
+  --karta: #e9d9ff;
+  
 }
-h1 {
-  color: #4A3267;
-  font-size: 40px;
-  font-family: sans-serif;
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.stranka {
-  background-color: #F3D9E5;
-  width: 80%;
+header {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, var(--pozadi1), var(--pozadi2)); 
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--nadpis);
+  text-align: center;
+  margin: 30px;
+}
+h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+#obrazky {
+  position: relative;
+  width: 600px;
+  height: 100%;
+  overflow: hidden;
+
+
+main {
+  background-color: var(--pozadi3);
+  width: 100vw;
   margin-right: auto;
   margin-left: auto;
   padding: 20px;
@@ -21,27 +50,47 @@ p {
   margin: 0 auto;
 }
 
+.uvod {
+ 
+}
+
 .galerie {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
   gap: 30px;
   width: 90%;
   margin: 0 auto;
   padding-top: 30px;
-  
+
+ @media (max-width: 640px) {
+  .galerie { display: grid;
+grid-template-columns: 1fr;
+   width: 80%;
+           }
 }
 
-.galerie img {
-  max-width: 100%;
+.karta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--karta);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+}
+
+.karta img {
+  width: 80%;
   height: auto;
   transition: transform 0.5s ease;
+  margin-top: 20px;
+  
 
 }
 
-.galerie img:hover {
+.karta img:hover {
   
 transform: scale(1.1);
 }
-
