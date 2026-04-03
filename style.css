@@ -35,7 +35,7 @@ h1 {
   width: 600px;
   height: 100%;
   overflow: hidden;
-
+}
 
 main {
   background-color: var(--pozadi3);
@@ -50,9 +50,6 @@ p {
   margin: 0 auto;
 }
 
-.uvod {
- 
-}
 
 .galerie {
   display: grid;
@@ -62,13 +59,13 @@ grid-template-columns: 1fr 1fr 1fr;
   width: 90%;
   margin: 0 auto;
   padding-top: 30px;
+}
 
  @media (max-width: 640px) {
   .galerie { display: grid;
 grid-template-columns: 1fr;
    width: 80%;
-           }
-}
+           }}
 
 .karta {
   display: flex;
