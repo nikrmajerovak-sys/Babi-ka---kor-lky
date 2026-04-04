@@ -20,12 +20,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
+
+@media (max-aspect-ratio: 3/4) {
+  header {
+    height: 50vh;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: var(--nadpis);
   text-align: center;
   margin: 30px;
 }
+
 h1 {
   font-size: 3rem;
   font-family: sans-serif;
@@ -36,14 +45,8 @@ h1 {
 }
 
 #uvodni1 {
-   position: absolute;
-  height: auto;
-  max-width: 40vw; 
-  right: 10px;
-  top: 20vh;
-  
-  }
-
+  width: auto;
+  height: 100%;
 }
 
 main {
